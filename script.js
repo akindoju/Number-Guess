@@ -50,7 +50,7 @@ function checkNumber(msg) {
         `;
   } else if (num > randomNum) {
     msgEl.innerHTML += '<div>GO LOWER</div>';
-  } else if (num < randomNum) {
+  } else {
     msgEl.innerHTML += '<div>GO HIGHER</div>';
   }
 }
